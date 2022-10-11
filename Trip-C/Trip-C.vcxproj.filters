@@ -126,5 +126,32 @@
     <ClCompile Include="5.5.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="4.5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4.6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4.7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
