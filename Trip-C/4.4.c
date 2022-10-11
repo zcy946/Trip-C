@@ -2,16 +2,16 @@
 #include <stdio.h>
 int main()
 {
-	float basic = 2000.0, m, ad, money;
-	printf("请输入您的销售额：");
-	scanf("%f", &m);
-	if (m > 7000 && m <= 10000)
-		ad = basic * 0.1;
-	else if (m > 10000)
-		ad = basic * 0.2;
-	else if (m < 0)
-		printf("请正确输入数值");
-	money = basic + ad;
-	printf("您的工资为：%f", money);
+	float basic=2000, fin=0, tc=0, yye;
+	printf("请输入您的营业额：");
+	scanf("%f", &yye);
+	if (yye > 3000 && yye <= 7000)
+		tc = yye* 0.1;
+	else if (yye > 7000 && yye <= 10000)
+		tc = yye * (0.15);
+	else if (yye > 10000)
+		tc = yye * (0.2);
+	fin = basic + tc;
+	printf("您的工资为：%.2f", fin);
 	return 0;
 }
