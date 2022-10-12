@@ -5,12 +5,10 @@ int main()
 	int a, b;
 	for (a = 100; a <= 200; a++)
 	{
-		for(b=2;b<=a;b++)
-		{
+		for (b = 2; b < a; b++)
 			if (a % b == 0)
 				break;
-		}
-		if (b > a)
+		if(b>=a)
 			printf("%d ", a);
 	}
 	return 0;
