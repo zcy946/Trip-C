@@ -19,7 +19,7 @@ int main()
 	for (int i = 0; i < 10; i++)
 		class2[i] = rand() % 100;
 	printf("A班的平均成绩为：%.2f\n", average(class1, 5));
-	printf("B班的平均成绩为：%.2f\n", average(class2, 10));
+	printf("B班的平均成绩为：%.2f\n", average(class2, 10))；
 
 	return 0;
 }
